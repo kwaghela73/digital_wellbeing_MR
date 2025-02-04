@@ -5,6 +5,9 @@
       "Assembly-CSharp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Assembly-CSharp.dll": {}
         },
@@ -23,6 +26,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj",
       "Assembly-CSharp >= 1.0.0"
     ]
   },
@@ -51,6 +55,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj"
+            },
             "/Users/mehul/Digital Wellbeing/Assembly-CSharp.csproj": {
               "projectPath": "/Users/mehul/Digital Wellbeing/Assembly-CSharp.csproj"
             }
@@ -86,5 +93,16 @@
         "runtimeIdentifierGraphPath": "/Users/mehul/.dotnet/sdk/9.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
 }

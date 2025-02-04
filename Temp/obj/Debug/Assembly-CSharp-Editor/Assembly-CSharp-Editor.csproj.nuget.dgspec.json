@@ -26,6 +26,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj": {
+                "projectPath": "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj"
+              },
               "/Users/mehul/Digital Wellbeing/Assembly-CSharp.csproj": {
                 "projectPath": "/Users/mehul/Digital Wellbeing/Assembly-CSharp.csproj"
               }
@@ -83,7 +86,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj": {
+                "projectPath": "/Users/mehul/Digital Wellbeing/Assembly-CSharp-firstpass.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
